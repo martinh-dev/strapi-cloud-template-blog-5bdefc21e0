@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "branchen",
+  "info": {
+    "singularName": "branche",
+    "pluralName": "branchen",
+    "displayName": "Branchen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content": {
+      "type": "blocks",
+      "required": true
+    },
+    "Zusammenfassung": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

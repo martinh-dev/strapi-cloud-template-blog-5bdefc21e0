@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "singularName": "technologie",
+    "pluralName": "technologies",
+    "displayName": "Technologien & Tools"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content": {
+      "type": "blocks",
+      "required": true
+    },
+    "Zusammenfassung": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
